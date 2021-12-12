@@ -1,0 +1,55 @@
+
+.note {
+  font-size: 8rem;
+  font-weight: 700;
+  margin-top: 10%;
+  color: var(--secondary);
+}
+
+.head {
+  padding-top: 2rem;
+  font-size: 2rem;
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.weblink {
+  font-size: 2rem;
+  padding: 2rem 0;
+  color: grey;
+}
+.body {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--first);
+}
+
+@media (max-width:991px) {
+  .none {
+    padding-right: 15%;
+  }
+
+  .note {
+    margin-top: 30%;
+    font-size: 10rem;
+  }
+
+  .head {
+    padding-top: 3rem;
+    font-size: 3rem;
+  }
+
+  .body {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width:500px){
+  .note{
+    font-size: 5rem;
+  }
+  .head {
+    font-size: 2.6rem;
+  }
+}
